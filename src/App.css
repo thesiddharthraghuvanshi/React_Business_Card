@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+}
+
+.container {
+  background-color: #000000;
+  padding: 50px;
+}
+
+.cards {
+  width: 550px;
+  background-color: #23252c;
+}
+
+.dark-theme,
+.light-theme {
+  display: flex;
+  justify-content: center;
+}
+
+.light-theme {
+  margin-top: 50px;
+}
+
+.dark-theme > :nth-child(2),
+.light-theme > :nth-child(2) {
+  margin-left: 50px;
+}

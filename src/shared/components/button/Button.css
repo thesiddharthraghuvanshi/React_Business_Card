@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 34px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button > img {
+  width: 13px;
+  height: 10px;
+}
+
+.button > span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 5px;
+}
